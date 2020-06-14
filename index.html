@@ -8,6 +8,36 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
+    <header>
+        <div class="score">
+            <button class="btn" type="submit">View High Scores</button>
+        </div>
+        <h2 id="timer"></h2>
+    </header>
+    <main>
+    <div class="start-screen">
+        <h1>Code Quiz Challenge</h1>
+        <p>
+            In order to sharpen your skills as a developer, try to answer the following questions within the given time. 
+            Remember an incorrect answer results in a 10 second deduction! Choose wisely.
+        </p>
+        <div class="controls">
+            <button class="btn" id="start-btn">Start</button>
+        </div>
+    </div>
+    <div class="container">
+        <div id="question-container" class="hide">
+            <div id="question">
+            <div id="answer-buttons" class="btn-grid">
+                <button class="btn">Answer 1</button>
+                <button class="btn">Answer 2</button>    
+                <button class="btn">Answer 3</button>
+                <button class="btn">Answer 4</button>
+            </div>
+            </div>
+        </div>    
+    </div>  
+    </main>  
     <script src="./assets/js/script.js"></script>
 </body>
 </html>
