@@ -13,19 +13,24 @@ body {
     background: var(--primary);
     color: var(--secondary);
     margin: 0;
-    /**padding: 0;**/
+    padding: 0;
     display: flex;
     width: 100vw;
-    min-height: 100vh;
     justify-content: center;
     align-items: center;
-    /**flex-direction: column;**/
+    flex-direction: column;
   }
  
 header {
     background: var(--secondary);
+    width: 100vw;
     padding: 30px 25px;
     border-bottom: 5px solid var(--tertiary);
+}
+
+.container {
+    width: 800px;
+   
 }
 
 .score {
