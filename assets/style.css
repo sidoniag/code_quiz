@@ -22,21 +22,35 @@ body {
   }
  
 header {
-    background: var(--secondary);
+    background: var(--tertiary);
     width: 100vw;
     padding: 30px 25px;
-    border-bottom: 5px solid var(--tertiary);
+    border-bottom: 5px solid var(--secondary);
 }
 
 .container {
     width: 800px;
-   
-}
-
-.score {
-
+    max-width: 80%;
 }
 
 h2.timer {
     color: var(--primary);
+}
+
+.btn-grid {
+    display: grid;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.btn {
+    background-color: var(--secondary);
+    color: var(--primary);
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.btn:hover {
+    background-color: var(--tertiary);
+    color: var(--secondary);
 }

@@ -1,18 +1,7 @@
-# code_quiz
+# Code Quiz
 
-AS A coding boot camp student
-I WANT to take a timed quiz on JavaScript fundamentals that stores high scores
-SO THAT I can gauge my progress compared to my peers
+A timed quiz on JavaScript fundamentals that stores high scores for user to guage progress
 
-GIVEN I am taking a code quiz
-WHEN I click the start button
-THEN a timer starts and I am presented with a question
-WHEN I answer a question
-THEN I am presented with another question
-WHEN I answer a question incorrectly
-THEN time is subtracted from the clock
-WHEN all questions are answered or the timer reaches 0
-THEN the game is over
-WHEN the game is over
-THEN I can save my initials and score
-Mock-Up
+When the start button is clicked the game will begin. A time starts as questions are presented on the screen. After each answer the response will be marked wrong or right with corresponding score. Every wrong answer will deduct ten seconds from the timer. 
+
+When either all questions are answered or the time runs out, the game is over. Then the user can save score and initials. 
