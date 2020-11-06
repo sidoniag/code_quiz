@@ -98,3 +98,5 @@ var questionArray = [
         correct: ""
     },
 ]
+
+startBtnEl.onclick = startQuiz;
